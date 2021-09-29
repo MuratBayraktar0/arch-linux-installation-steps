@@ -51,16 +51,16 @@
 ```
  vim /etc/hostname
 ```
+### Write and save
 ```
-Write "murat"(your hostname) save
+murat(your hostname)
 ```
 ```
  vim /etc/hosts
 ```
+### Write and save
 ```
-Write 
-"127.0.0.1          localhost
- ::1                localhost 
- 127.0.1.1          murat(yout hostname).localdomain         murat" 
-save
+127.0.0.1          localhost
+::1                localhost 
+127.0.1.1          murat(yout hostname).localdomain         murat(yout hostname)
 ```
