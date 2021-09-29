@@ -59,7 +59,7 @@
 ```
 
 ### Write and save
-  >127.0.0.1&nbsp;&nbsp;localhost
+  >127.0.0.1 &#9; localhost
   >
   >::1                localhost 
   >
