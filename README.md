@@ -81,3 +81,25 @@ murat(your hostname)
   pacman -S sudo
   EDITOR=vim visudo
 ```
+# Install GRUB bootloader
+```
+  pacman -S grub efibootmgr
+  pacman -S os-prober
+  grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=GRUB
+  grub-mkconfig -o /boot/grub/grub.cfg
+  exit
+  reboot
+```
+# Post Installation tasks
+```
+  ip link
+```
+```
+  The output confirms that our network interface is "enp0s3"
+```
+```
+  su
+  cp /etc/netctl/examples/ethernet-dhcp  /etc/netctl/custom-dhcp-profile
+  cd /etc/netctl
+  vim custom-dhcp-profile
+```
