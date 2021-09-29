@@ -51,7 +51,9 @@
 ```
  vim /etc/hostname
 ```
+```
 Write "murat" (your host name) save
+```
 ```
  vim /etc/hosts
 ```
