@@ -40,7 +40,7 @@
 ```
 # Set up locale
 ```
- vim /etc/locale.gen
+  vim /etc/locale.gen
 ```
 ### Once you have accessed the file, scroll and uncomment your preferred locale. In this case, we have decided to go with en_US.UTF-8 UTF-8
 ```
@@ -49,16 +49,17 @@
 ```
 # Set up hostname
 ```
- vim /etc/hostname
+  vim /etc/hostname
 ```
 ### Write and save
   >murat(your hostname)
 
-
-$vim /etc/hosts
+```
+  vim /etc/hosts
+```
 
 ### Write and save
-  >127.0.0.1          localhost
+  >127.0.0.1					localhost
   >
   >::1                localhost 
   >
