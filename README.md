@@ -53,16 +53,16 @@
 ```
 ### Write and save
 ```
-murat(your hostname)
+  murat(your hostname)
 ```
 ```
  vim /etc/hosts
 ```
 ### Write and save
 ```
-127.0.0.1          localhost
-::1                localhost 
-127.0.1.1          murat(yout hostname).localdomain         murat(yout hostname)
+  127.0.0.1          localhost
+  ::1                localhost 
+  127.0.1.1          murat(yout hostname).localdomain         murat(yout hostname)
 ```
 # Install netctl Network Manager
 ```
