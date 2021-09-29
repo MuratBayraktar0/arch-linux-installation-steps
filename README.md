@@ -64,3 +64,20 @@ murat(your hostname)
 ::1                localhost 
 127.0.1.1          murat(yout hostname).localdomain         murat(yout hostname)
 ```
+# Install netctl Network Manager
+```
+  pacman -Sy netctl
+  pacman -Sy dhcpcd wpa-supplicant ifplugd
+```
+# Create a regular user
+```
+  passwd
+  useradd -m murat(your username)
+  passwd murat(your username)
+  usermod -aG wheel,audio,video,optical,storage murat(your username)
+```
+# Set up sudo
+```
+  pacman -S sudo
+  EDITOR=vim visudo
+```
