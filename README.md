@@ -52,8 +52,15 @@
  vim /etc/hostname
 ```
 ```
-Write "murat" (your host name) save
+Write "murat"(your hostname) save
 ```
 ```
  vim /etc/hosts
+```
+```
+Write 
+"127.0.0.1          localhost
+ ::1                localhost 
+ 127.0.1.1          murat(yout hostname).localdomain         murat" 
+save
 ```
