@@ -93,9 +93,8 @@
 # Post Installation tasks
 ```
   ip link
-```
-```
-  The output confirms that our network interface is "enp0s3"
+
+  >The output confirms that our network interface is "enp0s3"
 ```
 ```
   su
