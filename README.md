@@ -54,9 +54,9 @@
 ### Write and save
   >murat(your hostname)
 
-```
- vim /etc/hosts
-```
+
+$vim /etc/hosts
+
 ### Write and save
   >127.0.0.1          localhost
   >
