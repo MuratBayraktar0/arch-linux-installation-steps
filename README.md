@@ -103,3 +103,5 @@
   cd /etc/netctl
   vim custom-dhcp-profile
 ```
+![Adsız](https://user-images.githubusercontent.com/51914434/135350696-a2e57d3b-86aa-4f5b-8699-0a10654ca67f.png) #TO 
+![Adsız](https://user-images.githubusercontent.com/51914434/135350696-a2e57d3b-86aa-4f5b-8699-0a10654ca67f.png)
