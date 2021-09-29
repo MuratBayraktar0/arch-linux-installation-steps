@@ -59,7 +59,9 @@
 ```
 ### Write and save
   >127.0.0.1          localhost
+  >
   >::1                localhost 
+  >
   >127.0.1.1          murat(yout hostname).localdomain         murat(yout hostname)
 
 # Install netctl Network Manager
