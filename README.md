@@ -38,3 +38,20 @@
   hwclock --systohc
   pacman -Sy vim
 ```
+# Set up locale
+```
+ vim /etc/locale.gen
+```
+### Once you have accessed the file, scroll and uncomment your preferred locale. In this case, we have decided to go with en_US.UTF-8 UTF-8
+```
+  locale-gen
+  vim /etc/locale.conf
+```
+# Set up hostname
+```
+ vim /etc/hostname
+```
+### Write "murat" (your host name) save
+```
+ vim /etc/hosts
+```
